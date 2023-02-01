@@ -1,0 +1,44 @@
+{
+		"name": "pixzl/custom-css",
+		"type": "shopware-platform-plugin",
+		"description": "Shopware 6 plugin that allows you to add custom CSS to your storefront.",
+		"authors": [
+			{
+				"name": "Pixzl",
+				"email": "support@pixzl.de"
+			}
+		],
+		"require": {
+			"shopware/core": "~v6.4.0"
+		},
+		"require-dev": {
+			"phpunit/phpunit": "^7.0.0"
+		},
+		"autoload": {
+			"psr-4": {
+				"PixzlCustomCSS\\": "src/"
+			}
+		},
+		"extra": {
+			"shopware-plugin-class": "PixzlCustomCSS\\PixzlCustomCSS",
+			"plugin-icon": "src/Resources/config/plugin.png",
+			"copyright": "(c) by Pixzl",
+			"label": {
+				"de-DE": "Pixzl Custom CSS",
+				"en-GB": "Pixzl Custom CSS"
+			},
+			"description": {
+				"de-DE": "Erlaubt Dir CSS im Storefront hinzuzufügen.",
+				"en-GB": "Shopware 6 plugin that allows you to add custom CSS to your storefront"
+			},
+			"manufacturerLink": {
+				"de-DE": "https://pixzl.de/shopware/plugins/customcss",
+				"en-GB": "https://pixzl.de/shopware/plugins/customcss"
+			},
+			"supportLink": {
+				"de-DE": "https://support.pixzl.de/",
+				"en-GB": "https://support.pixzl.de/"
+			}
+		}
+	}
+	

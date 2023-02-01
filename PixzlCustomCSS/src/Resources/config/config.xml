@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/platform/v6.3/src/Core/System/SystemConfig/Schema/config.xsd">
+
+	<elements>
+		<element name="pixzl_custom_css">
+			<type>array</type>
+			<label>Pixzl Custom CSS</label>
+			<scope>storefront</scope>
+			<config>
+				<array name="pixzl_custom_css_files">
+					<label>CSS Files</label>
+					<item type="string" name="file_name">
+						<label>File name</label>
+					</item>
+					<item type="text" name="css_code">
+						<label>CSS Code</label>
+					</item>
+				</array>
+			</config>
+		</element>
+	</elements>
+
+</config>

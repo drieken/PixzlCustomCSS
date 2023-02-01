@@ -1,0 +1,5 @@
+{% set cssFiles = shopware.config.get('pixzl-custom-css.css_files') %}
+
+{% for file in cssFiles %}
+	<link rel="stylesheet" href="{{ asset('bundles/pixzlcustomcss/css/' ~ file.name ~ '.css') }}">
+{% endfor %}
